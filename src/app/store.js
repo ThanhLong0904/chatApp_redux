@@ -1,4 +1,4 @@
-import counterReducer from '../features/Counter/counterSlice';
+
 import chatReducer from '../features/Chat/chatSlice';
 import { configureStore } from '@reduxjs/toolkit';
 
