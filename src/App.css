@@ -1,0 +1,106 @@
+.message_item {
+  height: 85px;
+}
+.your-message {
+  background: linear-gradient(65deg, #b013e1, #868686);
+  position: relative;
+  margin: 1em;
+  border-radius: 1em;
+  padding: 0.6em 1em;
+  color: white;
+  float: right;
+}
+
+.other-people {
+  position: relative;
+  background: #868686;
+  margin: 1em;
+  border-radius: 1em;
+  padding: 0.6em 1em;
+  color: white;
+  text-align: left;
+  float: left;
+}
+.wrapper_message {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 100px;
+  box-shadow: 0 0 10px 0 black;
+  border-radius: 1em;
+}
+.box-chat_message {
+  min-height: 60vh;
+  max-height: 60vh;
+  overflow-y: auto;
+}
+.send_box {
+  width: 100%;
+  padding: 1em;
+}
+.input_message {
+  width: 80%;
+  margin: 0;
+  padding: 0.5em;
+  background: #ebf5ff;
+  border-radius: 2em;
+  display: flex;
+  float: left;
+  border-style: none;
+  box-shadow: 0 0 2px 0 black;
+  outline: none;
+}
+button {
+  width: 10%;
+  background: #555;
+  color: white;
+  margin-left: 10px;
+  border: none;
+  border-radius: 1em;
+  cursor: pointer;
+  padding: 0.6em;
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dadada;
+  border-radius: 1em;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.your-message > .message_icon {
+  position: absolute;
+  font-size: 1.3rem;
+  top: 0;
+  transform: translateY(-12%);
+  left: -32px;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+.other-people > .message_icon {
+  position: absolute;
+  font-size: 1.3rem;
+  right: -32px;
+  top: 0;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(-12%);
+}
+.other-people .message_icon_update {
+  display: none;
+}
